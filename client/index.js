@@ -1,6 +1,6 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
-import * as SCSS from './sass/application.scss';
+import * as SCSS from './sass/main.scss';
 
 import SquareA from './js/components/square-a';
 import SquareB from './js/components/square-b';
