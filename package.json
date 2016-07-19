@@ -1,0 +1,27 @@
+{
+  "name": "react-grid",
+  "version": "1.0.0",
+  "description": "react and slim grid",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "webpack -p -config webpack.config.js"
+  },
+  "engines": {
+    "node": "6.3.0"
+  },
+  "author": "andy nguyen",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1"
+  }
+}
